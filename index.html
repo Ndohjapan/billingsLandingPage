@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>Billings</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./css/fontawesome-free-5.15.4-web/css/all.css">
+
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+	================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header 
+   ================================================== -->
+    <header id="header" class="row">
+
+        <div class="header-logo">
+            <a href="index.html">Bilings.</a>
+        </div>
+
+        <nav id="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll" href="#footer" title="pricing">Contact Us</a></li>
+                <li><a class="smoothscroll" href="#" title="pricing">Project Breakdown</a></li>
+            </ul>
+
+            <a href="#lead-generation" title="sign-up" class="button button-primary cta smoothscroll">Join Waiting List</a>
+        </nav>
+
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header>
+    <!-- /header -->
+
+
+    <!-- home
+   ================================================== -->
+    <section id="home" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000>
+
+        <div class="overlay"></div>
+        <div class="home-content">
+
+            <div class="row contents">
+                <div class="home-content-left">
+
+                    <h3 data-aos="fade-up">Billings</h3>
+
+                    <h1 data-aos="fade-up">
+                        Smart Payment Solution<br> For Everyone.
+                    </h1>
+
+                    <ul class="download-badges">
+                        <li><a href="#" title="" onclick="ShowDialogBox()" class="badge-googleplay" data-aos="fade-up">Play Store</a></li>
+                        <li><a href="#" title="" onclick="ShowDialogBox()" class="badge-appstore" data-aos="fade-up">App Store</a></li>
+                    </ul>
+
+                    <script>
+                        function ShowDialogBox() {
+                            document.querySelector(".wait-list-notification").classList.toggle("display")
+                        }
+                    </script>
+
+                    <ul class="wait-list-notification">
+                        <p>Be first to download when we launch and get free N250 <br> Join the wait list to be notified </p>
+                        <a href="#lead-generation" title="sign-up" onclick="ShowDialogBox()" class="button button-primary cta smoothscroll">Join Waiting List</a>
+                    </ul>
+
+                </div>
+
+                <div class="home-image-right">
+                    <img src="images/Phone_(Center).png" srcset="images/Phone_(Center).png 1x,images/Phone_(Center).png 2x" data-aos="fade-up">
+                </div>
+            </div>
+
+        </div>
+        <!-- end home-content -->
+
+        <ul class="home-social-list">
+            <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-youtube-play"></i></a>
+            </li>
+        </ul>
+        <!-- end home-social-list -->
+
+        <div class="home-scrolldown">
+            <a href="#about" class="scroll-icon smoothscroll">
+                <span>Scroll Down</span>
+                <i class="icon-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+
+    </section>
+    <!-- end home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about">
+
+        <div class="row about-intro">
+
+            <div class="col-four">
+                <h1 class="intro-header" data-aos="fade-up">About Our App</h1>
+            </div>
+            <div class="col-eight">
+                <p class="lead" data-aos="fade-up">
+                    Ever bought drinks or stuffs you do not want just to get 1k change to pay the maruwa man or Alhaja 50 bucks for photocopy or transport. Billings lets you seemlessly make such payments.You do not have to withdraw 1k from the POS to make payment of 50bucks
+                    any more.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Features of the app -->
+        <div class="row about-features">
+
+            <div class="features-list block-1-3 block-m-1-2 block-mob-full group">
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="fas fa-qrcode"></i></span>
+
+                    <div class="service-content">
+
+                        <h3>QR Fast Payment</h3>
+
+                        <p>This is the main function of the app. You can easily make payments to any merchant accepting Bilings Pay. Simply swipe oopen the app, scna QR of seller and confir payments. No need to get change even for the smallest item.</p>
+
+                    </div>
+
+                </div>
+                <!-- /bgrid -->
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="fas fa-clock"></i></span>
+
+                    <div class="service-content">
+                        <h3>No Delayed Transactions</h3>
+
+                        <p>All Payments either QR or direct transfer is done in splits of seconds. No need waiting to confirm transaction.
+                        </p>
+
+
+                    </div>
+
+                </div>
+                <!-- /bgrid -->
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon" style="position: relative;"><i class="fas fa-money-bill-wave"></i> <i class="fas fa-times" style="color: #c95555; font-size: 3rem; position: absolute; bottom: 5px;left: 45px;"></i></span>
+
+                    <div class="service-content">
+                        <h3>No Transaction Fee</h3>
+
+                        <p>Make payment on the app for any product you purchase in sellers shop or transfer to a fried without any fee
+                        </p>
+
+                    </div>
+
+                </div>
+                <!-- /bgrid -->
+
+            </div>
+            <!-- end features-list -->
+
+        </div>
+        <!-- end about-features -->
+
+        <!-- Join the waiting list -->
+        <div class="row join-waiting-list about-how" id="lead-generation">
+            <div class="about-how-content" data-aos="fade-up">
+                <div class="about-how-steps block-1-2 block-tab-full group">
+
+                    <div class="bgrid" data-item="1">
+                        <h1>Be Part Of The Smart Payment Revolution</h1>
+                        <h3>Be among those to recieve N250 free on our launch day</h3>
+                        <form action="">
+                            <input type="text" name="name" id="" placeholder="Enter Full Name">
+                            <input type="text" name="number" id="" placeholder="Enter Phone number">
+                            <button title="Join Our Waiting List" type="submit" class="button button-secondary">Join Now</button>
+                        </form>
+
+                    </div>
+
+                    <div class="bgrid " data-item="2 ">
+                        <img src="./images/Asset 1.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- How the app works -->
+        <div class="row about-how ">
+
+            <h1 class="intro-header " data-aos="fade-up ">How The App Works?</h1>
+
+            <div class="about-how-content " data-aos="fade-up ">
+                <div class="about-how-steps block-1-2 block-tab-full group ">
+
+                    <div class="bgrid step " data-item="1 ">
+                        <h3>Fast Sign-Up + Free N250</h3>
+                        <p>With only your phone number and full name, your Billings app account is set. You get free <strong style="color: black; ">N250</strong> after sign-up to purchase in any of our Billings supoorted stores. Be among the first to recieve
+                            this gift when we launch.
+                        </p>
+                        <a href="#lead-generation " title="Join Waiting List " class="button button-secondary cta smoothscroll type=" submit ">Join Now</a>
+
+                    </div>
+
+                    <div class="bgrid step " data-item="2 ">
+                        <h3>Open up QR Payment and scan Selers QR</h3>
+                        <p>Make purchase in any of the Billings supported sellers and scan their QR to make payment.No need to worry about change after purchase.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- end about-how-content -->
+
+        </div>
+        <!-- end about-how -->
+
+        <!-- Additional Features -->
+        <div class="row about-how ">
+
+            <h1 class="intro-header " data-aos="fade-up ">Additional Features</h1>
+
+            <div class="row about-features ">
+
+                <div class="features-list block-1-2 block-m-1-2 block-mob-full group ">
+
+                    <div class="bgrid feature " data-aos="fade-up ">
+
+
+                        <div class="service-content ">
+                            <div class="additional-feature-headers ">
+                                <span class="icon "><i class="fas fa-users "></i></span>
+
+                                <h3>Crowdfunding and Fundraising </h3>
+                            </div>
+
+                            <p> The second section of the app. In this sections, users can raise funds for any project or support a friend financially.</p>
+
+                        </div>
+
+                    </div>
+                    <!-- /bgrid -->
+
+                    <div class="bgrid feature " data-aos="fade-up ">
+
+
+                        <div class="service-content ">
+
+                            <div class="additional-feature-headers ">
+                                <span class="icon "><i class="fas fa-hand-holding-usd "></i></span>
+                                <h3>Loan</h3>
+                            </div>
+
+
+                            <p>Third section of the app. Users can borrow and lend money on a P2P level. The lender gets a commission for leasing his/her money to a fellow user (Borrower) per day.
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- end features-list -->
+
+            </div>
+
+        </div>
+
+        <div class="row about-bottom-image ">
+
+            <img src="images/Asset 1@3x.png " srcset="images/Asset 1@3x.png 600w, images/Asset 1@3x.png 1200w, images/Asset 1@3x.png 2800w " sizes="(max-width: 2800px) 100vw, 2800px " alt="App Screenshots " data-aos="fade-up ">
+
+        </div>
+        <!-- end about-bottom-image -->
+
+    </section>
+    <!-- end about -->
+
+
+    <!-- Meet our team
+    ================================================== -->
+    <section class="speakers-section ">
+        <div class="parallax-scene parallax-scene-2 anim-icons ">
+            <span data-depth="0.40 " class="parallax-layer icon icon-circle-5 "></span>
+            <span data-depth="0.99 " class="parallax-layer icon icon-circle-5 "></span>
+        </div>
+
+        <div class="container ">
+            <div class="sec-title light text-center ">
+                <h1>Our Team</h1>
+            </div>
+
+            <div class="row about-features ">
+                <div class="block-1-3 block-m-1-2 block-mob-full group ">
+          
+                    <div class="speaker-block bgrid feature wow fadeInUp ">
+                        <div class="inner-box ">
+                            <div class="image-box ">
+                                <figure class="image "><img src="./images/Polish_20211103_064831221.jpg " alt=" ">
+                                    <div class="social-links ">
+                                        <ul>
+                                           <li><a href="# "><span class="fab fa-facebook-f "></span></a></li> 
+                                           <li><a href="# "><span class="fab fa-twitter "></span></a></li> 
+                                           <li><a href="# "><span class="fab fa-linkedin-in "></span></a></li> 
+                                        </ul>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="caption-box ">
+                                <h4 class="name "><a href="# ">Timi Bello </a></h4>
+                                <span class="designation ">Head of Team</span>
+                            </div>
+                        </div>
+                    </div>
+    
+               
+                    <div class="speaker-block bgrid feature wow fadeInUp " data-wow-delay="400ms ">
+                        <div class="inner-box ">
+                            <div class="image-box ">
+                                <figure class="image "><img src="./images/60111 [Converted].png " alt=" ">
+                                    <div class="social-links ">
+                                        <ul>
+                                           <li><a href="# "><span class="fab fa-facebook-f "></span></a></li> 
+                                           <li><a href="# "><span class="fab fa-twitter "></span></a></li> 
+                                           <li><a href="# "><span class="fab fa-linkedin-in "></span></a></li> 
+                                        </ul>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="caption-box ">
+                                <h4 class="name "><a href="# ">Moshood</a></h4>
+                                <span class="designation ">Team Developer</span>
+                            </div>
+                        </div>
+                    </div>
+    
+             
+                    <div class="speaker-block bgrid feature wow fadeInUp " data-wow-delay="800ms ">
+                        <div class="inner-box ">
+                            <div class="image-box ">
+                                <figure class="image "><img src="./images/IMG-20210924-WA0062.jpg " alt=" ">
+                                    <div class="social-links ">
+                                        <ul>
+                                           <li><a href="# "><span class="fab fa-facebook-f "></span></a></li> 
+                                           <li><a href="# "><span class="fab fa-twitter "></span></a></li> 
+                                           <li><a href="# "><span class="fab fa-linkedin-in "></span></a></li> 
+                                        </ul>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="caption-box ">
+                                <h4 class="name "><a href="# ">Ndoh Joel </a></h4>
+                                <span class="designation ">Team Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Testimonials Section
+    ================================================== -->
+
+
+
+    <!-- download
+    ================================================== -->
+    <section id="download " class="download-bottom ">
+
+        <div class="row ">
+            <div class="col-full ">
+                <h1 class="intro-header " data-aos="fade-up " >Be First To Download Our App</h1>
+
+                <p class="lead " data-aos="fade-up ">
+                    Don't miss out on our Release date. Be the first to use the app after launch. Join the waiting list today to get our free N250 on launch date. </p>
+
+                            <ul class="download-badges ">
+                                <a href="#lead-generation " title="Join Waiting List " class="button button-secondary cta smoothscroll type=" submit ">Join Now</a>
+                        </ul>
+
+                    </div>
+                </div>
+
+    </section>
+    <!-- end download -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer id="footer ">
+
+        <div class="footer-main ">
+            <div class="row ">
+
+                <div class="col-six md-1-2 tab-full footer-info ">
+
+                    <div class="footer-logo "></div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+                    </p>
+
+                    <ul class="footer-social-list ">
+                        <li>
+                            <a href="# "><i class="fas fa-facebook-square "></i></a>
+                        </li>
+                        <li>
+                            <a href="# "><i class="fas fa-twitter "></i></a>
+                        </li>
+                        <li>
+                            <a href="# "><i class="fas fa-behance "></i></a>
+                        </li>
+                        <li>
+                            <a href="# "><i class="fas fa-dribbble "></i></a>
+                        </li>
+                        <li>
+                            <a href="# "><i class="fas fa-instagram "></i></a>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <!-- end footer-info -->
+
+                <div class="col-six md-1 tab-1-2 mob-full footer-contact ">
+
+                    <h4>Contact Us</h4>
+
+                    <p>
+                        Timi:<br> <i class="fas fa-phone "></i>
+                        <i class="fab fa-whatsapp "></i>
+                        <a href="tel:+2349066261615 ">09066261615</a><br>
+                    </p>
+                    <p>
+                        Moshood:<br> <i class="fas fa-phone "></i>
+                        <i class="fab fa-whatsapp "></i>
+                        <a href="tel:+2349095605545 ">09095605545</a><br>
+                    </p>
+                    <p>
+                        Joel:<br> <i class="fas fa-phone "></i>
+                        <i class="fab fa-whatsapp "></i>
+                        <a href="tel:+2349056144059 ">09056144059</a><br>
+                    </p>
+
+                    <p>
+                        <i class="fas fa-envelope "></i> :
+                        <a href="mailto:ndohjoelmbj16@gmail.com ">admin@billingspay.com</a>
+                    </p>
+
+                </div>
+                <!-- end footer-subscribe -->
+
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- end footer-main -->
+
+
+        <div class="footer-bottom ">
+
+            <div class="row ">
+
+                <div class="col-twelve ">
+                    <div class="copyright ">
+                        <span>© Copyright Billings 2021.</span>
+                    </div>
+
+                    <div id="go-top">
+                        <a class="smoothscroll " title="Back to Top " href="#top "><i class="icon-arrow-up "></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end footer-bottom -->
+
+        </div>
+
+    </footer>
+
+    <div id="preloader ">
+        <div id="loader "></div>
+    </div>
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-2.1.3.min.js "></script>
+    <script src="js/plugins.js "></script>
+    <script src="js/main.js "></script>
+
+</body>
+
+</html>
+
+</html>
