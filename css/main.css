@@ -151,6 +151,7 @@ h1,
     .h01 {
         font-size: 2.6rem;
         letter-spacing: -.07rem;
+        padding: 0;
     }
 }
 
@@ -522,6 +523,18 @@ td:last-child {
     -webkit-overflow-scrolling: touch;
 }
 
+.hero-text h1, .hero-text h3{
+    color: white;
+
+}
+
+.hero-text h1{
+    font-size: 3rem;
+}
+
+.hero-text h3{
+    font-size: 3rem;
+}
 
 /* ------------------------------------------------------------------- 
  * pace.js styles - center simple  - (_document-setup.scss)
@@ -1804,6 +1817,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     .home-content {
         display: block;
         text-align: center;
+    }
+    .hero-text{
+        padding: 10rem0;
+        padding-top: 12rem;
     }
     .home-content-left {
         width: 94%;
