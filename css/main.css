@@ -1537,9 +1537,8 @@ h1.intro-header::before {
 
 .home-content-left h3 {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.5;
-    text-transform: uppercase;
     letter-spacing: .2rem;
     margin-bottom: 2.4rem;
 }
